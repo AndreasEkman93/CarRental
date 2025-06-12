@@ -1,6 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<ApplicationUser> SignInManager @* Changed to ApplicationUser *@
-@inject UserManager<ApplicationUser> UserManager @* Changed to ApplicationUser *@
+@inject SignInManager<ApplicationUser> SignInManager /* Changed to ApplicationUser*/
+@inject UserManager<ApplicationUser> UserManager /*Changed to ApplicationUser*/
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
