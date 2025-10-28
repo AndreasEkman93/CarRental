@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRental", "CarRental.csproj", "{46D83ED4-CD9E-479F-B795-3C1BDAA2BF9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalAPI", "..\CarRentalAPI\CarRentalAPI.csproj", "{12468247-A63A-4367-8AF6-239E0F9520F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{46D83ED4-CD9E-479F-B795-3C1BDAA2BF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D83ED4-CD9E-479F-B795-3C1BDAA2BF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D83ED4-CD9E-479F-B795-3C1BDAA2BF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12468247-A63A-4367-8AF6-239E0F9520F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12468247-A63A-4367-8AF6-239E0F9520F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12468247-A63A-4367-8AF6-239E0F9520F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12468247-A63A-4367-8AF6-239E0F9520F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
